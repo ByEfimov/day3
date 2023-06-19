@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;700&family=Poppins:wght@300;600&display=swap");
+
+.container {
+  width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.padding {
+  padding: 0 92px;
+}
+
+.block-title {
+  display: flex;
+  justify-content: space-between;
+  .block-title-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    color: #3f4255;
+  }
+  .block-title-button {
+    font-family: "Martel Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9093a6;
+    padding: 14px 24px;
+    text-align: center;
+    background: #f2f4fa;
+    border-radius: 4px;
+  }
+}
+
+.header {
+  border-bottom: 1px #d4d7e5 solid;
+  .header__body {
+    position: relative;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    align-items: center;
+    .header__use {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+      .header__link {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        .header__link-text {
+          font-family: "Martel Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
+          color: #9093a6;
+        }
+      }
+      .header-button {
+        height: 48px;
+        width: 48px;
+        padding: 12px;
+        background: #ffffff;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+.feed__body {
+  margin-top: 25px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  .feed__map {
+    position: absolute;
+    margin-left: -92px;
+    top: 720px;
+    background: #ffffff;
+    padding: 25px 25px 25px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    .feed__map-groups {
+      display: flex;
+      margin-left: 92px;
+      gap: 45px;
+      .feed__map-group {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        .feed__map-group-text {
+          font-family: "Martel Sans";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          letter-spacing: 0.5px;
+          color: #3f4255;
+        }
+      }
+    }
+  }
+  .feed__image {
+    position: relative;
+    .feed__image-lion {
+      position: absolute;
+      bottom: 81px;
+      left: -155px;
+    }
+    .feed__image-arrow {
+      position: absolute;
+      right: 80px;
+      bottom: 58px;
+    }
+    .feed__image-text {
+      margin-top: 33px;
+      text-align: end;
+      font-family: "Martel Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+    }
+  }
+  .feed__use {
+    margin-top: 95px;
+    .feed-title {
+      max-width: 534px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 58px;
+      line-height: 64px;
+      letter-spacing: 0.05em;
+      color: #3f4255;
+    }
+    .feed__buttons {
+      margin-top: 90px;
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      .feed-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #ffe145;
+        border-radius: 4px;
+        padding: 18.5px 24px;
+        font-family: "Martel Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: #3f4255;
+        span {
+          font-family: "Martel Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: #3f4255;
+        }
+      }
+    }
+  }
+}
+
+.restaurants__body {
+  margin-top: 148px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  .restaurants__items {
+    display: flex;
+    gap: 24px;
+    .restaurants__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      justify-content: center;
+      background: #fff;
+      filter: drop-shadow(0px 2px 16px rgba(60, 62, 74, 0.08));
+      border-radius: 4px;
+      .restaurants__iteml-logo {
+        height: 112px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.find {
+  background: #f2f4fa;
+  margin-top: 72px;
+  .find__body {
+    padding: 80px 172px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .find__text {
+      .find-title {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.08em;
+        color: #3f4255;
+      }
+      .find-desc {
+        font-family: "Martel Sans";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #3f4255;
+        max-width: 424.17px;
+        margin-top: 24px;
+      }
+    }
+    .find__form {
+      height: 72px;
+      .find__form-input {
+        background: #ffffff;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+        padding: 24px;
+        font-family: "Martel Sans";
+        font-style: normal;
+        font-weight: 300;
+        width: 336px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #3f4255;
+      }
+      .find__form-button {
+        background: #ffe145;
+        border-radius: 4px;
+        padding: 26px;
+        height: 100%;
+        margin-left: 4px;
+        font-family: "Martel Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1px;
+        letter-spacing: 0.5px;
+        color: #b79c10;
+      }
+    }
+  }
+}
+
+.specialities {
+  margin-top: 72px;
+  .specialities__body {
+    .specialities__items {
+      margin-top: 48px;
+      display: flex;
+      gap: 24px;
+      .specialities__item {
+        padding: 24px 42px;
+        background: #ffffff;
+        box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .specialities__item-text {
+          margin-top: 16px;
+          font-family: "Martel Sans";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.5px;
+          color: #313030;
+        }
+      }
+    }
+  }
+}
+
+.usp {
+  margin-top: 72px;
+  height: 284px;
+  display: flex;
+  background-color: #f8f9fb;
+  align-items: center;
+  background-image: url(/assets/images/usp/bg.png);
+  background-repeat: no-repeat;
+  .usp__body {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    .usp__item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      align-items: center;
+      justify-content: center;
+      .usp__item-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3f4255;
+      }
+    }
+  }
+}
+
+.map__body {
+  height: 600px;
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.insta__body {
+  margin-top: 72px;
+  margin-bottom: 72px;
+  .insta-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 0.08em;
+    color: #313030;
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 64px;
+      letter-spacing: 0.08em;
+      color: #9093a6;
+    }
+  }
+  .insta__images {
+    display: flex;
+    gap: 24px;
+    margin-top: 21px;
+  }
+}
